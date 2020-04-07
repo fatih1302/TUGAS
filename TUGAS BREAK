@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+//TUGAS BREAK FATIH
+
+int main(){
+	//MEMBUAT PROGRAM BREAK
+
+		for ( int n = 200 ; n <= 350 ; n++){
+			if ( n > 331) break;
+			cout << n << endl;
+		}
+	return 0;
+}
